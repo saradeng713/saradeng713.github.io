@@ -325,7 +325,7 @@ article.page {
   font-weight: 400 !important;
   color: var(--text-primary) !important;
   line-height: 1.2 !important;
-  max-width: 480px;
+  max-width: 680px;
   margin: 0 !important;
   border: none !important;
   padding: 0 !important;
@@ -356,7 +356,7 @@ article.page {
   font-weight: 300;
   line-height: 1.85;
   color: #444;
-  max-width: 520px;
+  max-width: 680px;
   margin-bottom: 1rem;
 }
 
