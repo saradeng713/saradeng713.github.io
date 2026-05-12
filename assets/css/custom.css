@@ -1,0 +1,400 @@
+/* ============================================================
+   Sara Deng — Custom Theme Override
+   Drop this file into: assets/css/custom.css
+   Then add this line to _includes/head/custom.html:
+   <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=DM+Serif+Display:ital@0;1&display=swap');
+
+/* ── Tokens ── */
+:root {
+  --cream:       #F7F4EE;
+  --cream-mid:   #EDE9DF;
+  --rule-dark:   #1A1916;
+  --rule-light:  #E8E4DA;
+  --text-primary:#1A1916;
+  --text-muted:  #888888;
+  --text-faint:  #BBBBBB;
+  --lavender-bg: #F0EEF8;
+  --lavender-bd: #C8C0DE;
+  --lavender-tx: #7B6FA0;
+  --lavender-hd: #5A4E82;
+}
+
+/* ── Base ── */
+body {
+  background: var(--cream) !important;
+  color: var(--text-primary) !important;
+  font-family: 'DM Sans', sans-serif !important;
+  font-weight: 300 !important;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Masthead / Header ── */
+.masthead {
+  background: var(--cream) !important;
+  border-bottom: 1px solid var(--rule-dark) !important;
+  box-shadow: none !important;
+}
+
+.masthead__inner-wrap {
+  display: grid !important;
+  grid-template-columns: 220px 1fr !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+}
+
+.site-title {
+  font-family: 'DM Serif Display', Georgia, serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  color: var(--text-primary) !important;
+  padding: 1.1rem 1.5rem !important;
+  border-right: 1px solid var(--rule-dark) !important;
+  line-height: 1.3 !important;
+  text-decoration: none !important;
+}
+
+.site-title:hover {
+  color: var(--text-primary) !important;
+  text-decoration: none !important;
+}
+
+/* Nav links */
+.greedy-nav {
+  background: transparent !important;
+}
+
+.greedy-nav a {
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+  color: var(--text-muted) !important;
+  padding: 1.1rem 1.25rem !important;
+  border-right: 1px solid var(--rule-light) !important;
+  text-decoration: none !important;
+  transition: color 0.15s, background 0.15s !important;
+}
+
+.greedy-nav a:first-of-type {
+  border-left: 1px solid var(--rule-light) !important;
+}
+
+.greedy-nav a:hover,
+.greedy-nav .active {
+  color: var(--text-primary) !important;
+  background: var(--cream-mid) !important;
+}
+
+/* ── Sidebar / Author Profile ── */
+.sidebar {
+  background: var(--cream) !important;
+  border-right: 1px solid var(--rule-dark) !important;
+  padding: 2rem 1.5rem !important;
+}
+
+.author__avatar img {
+  border-radius: 0 !important;
+  border: none !important;
+  width: 48px !important;
+  height: 48px !important;
+  object-fit: cover !important;
+  filter: grayscale(20%) !important;
+}
+
+.author__name {
+  font-family: 'DM Serif Display', Georgia, serif !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  color: var(--text-primary) !important;
+  margin-bottom: 2px !important;
+}
+
+.author__pronouns,
+.author__bio {
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 300 !important;
+  color: var(--text-muted) !important;
+  line-height: 1.7 !important;
+}
+
+.author__urls-wrapper .btn {
+  display: none !important; /* hide "Follow" button */
+}
+
+.author__urls {
+  display: block !important;
+}
+
+.author__urls li {
+  border-bottom: 1px solid var(--rule-light) !important;
+  padding: 6px 0 !important;
+}
+
+.author__urls li:last-child {
+  border-bottom: none !important;
+}
+
+.author__urls a {
+  font-size: 11px !important;
+  font-weight: 400 !important;
+  color: var(--text-muted) !important;
+  text-decoration: none !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  letter-spacing: 0.02em !important;
+}
+
+.author__urls a::after {
+  content: '↗';
+  font-size: 10px;
+  color: #CCC;
+}
+
+.author__urls a:hover {
+  color: var(--text-primary) !important;
+}
+
+/* Section labels in sidebar */
+.author__content h3,
+.author__content p.label {
+  font-size: 9.5px !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.12em !important;
+  text-transform: uppercase !important;
+  color: var(--text-faint) !important;
+  margin-bottom: 0.5rem !important;
+  font-family: 'DM Sans', sans-serif !important;
+}
+
+/* ── Main content area ── */
+.page__content,
+.archive__item-body,
+.page__inner-wrap {
+  font-family: 'DM Sans', sans-serif !important;
+  font-weight: 300 !important;
+  font-size: 14px !important;
+  line-height: 1.85 !important;
+  color: #444 !important;
+}
+
+/* Page title */
+.page__title,
+h1.page__title {
+  font-family: 'DM Serif Display', Georgia, serif !important;
+  font-size: 30px !important;
+  font-weight: 400 !important;
+  color: var(--text-primary) !important;
+  line-height: 1.2 !important;
+  border-bottom: 1px solid var(--rule-light) !important;
+  padding-bottom: 1.5rem !important;
+  margin-bottom: 2rem !important;
+}
+
+.page__title em,
+h1 em {
+  font-style: italic !important;
+  color: var(--lavender-hd) !important;
+}
+
+/* Section headings */
+h2 {
+  font-family: 'DM Serif Display', Georgia, serif !important;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  color: var(--text-primary) !important;
+  margin-top: 2.5rem !important;
+  margin-bottom: 0.75rem !important;
+  border-bottom: 1px solid var(--rule-light) !important;
+  padding-bottom: 0.5rem !important;
+}
+
+h3 {
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.1em !important;
+  text-transform: uppercase !important;
+  color: var(--text-faint) !important;
+  margin-top: 2rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+/* Links */
+a {
+  color: var(--lavender-hd) !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  text-decoration: underline !important;
+  text-underline-offset: 3px !important;
+}
+
+/* Strong */
+strong {
+  font-weight: 500 !important;
+  color: var(--text-primary) !important;
+}
+
+/* ── Archive / Publication / Portfolio items ── */
+.archive__item {
+  border-bottom: 1px solid var(--rule-light) !important;
+  padding: 1.5rem 0 !important;
+}
+
+.archive__item-title {
+  font-family: 'DM Serif Display', Georgia, serif !important;
+  font-size: 17px !important;
+  font-weight: 400 !important;
+  color: var(--text-primary) !important;
+  margin-bottom: 0.4rem !important;
+}
+
+.archive__item-title a {
+  color: var(--text-primary) !important;
+}
+
+.archive__item-title a:hover {
+  color: var(--lavender-hd) !important;
+  text-decoration: none !important;
+}
+
+.archive__item-excerpt {
+  font-size: 13px !important;
+  font-weight: 300 !important;
+  color: var(--text-muted) !important;
+  line-height: 1.7 !important;
+}
+
+/* ── Tags / Categories ── */
+.page__taxonomy-item,
+.page__meta-tag {
+  font-size: 10.5px !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.06em !important;
+  text-transform: uppercase !important;
+  color: var(--lavender-tx) !important;
+  background: var(--lavender-bg) !important;
+  border: 1px solid var(--lavender-bd) !important;
+  border-radius: 0 !important;
+  padding: 3px 10px !important;
+  text-decoration: none !important;
+}
+
+/* ── CV / Prose pages ── */
+.page__content p {
+  margin-bottom: 1rem !important;
+}
+
+.page__content ul,
+.page__content ol {
+  font-size: 14px !important;
+  font-weight: 300 !important;
+  line-height: 1.8 !important;
+  color: #444 !important;
+  padding-left: 1.25rem !important;
+}
+
+.page__content li {
+  margin-bottom: 0.3rem !important;
+}
+
+/* ── Footer ── */
+.page__footer {
+  background: var(--rule-dark) !important;
+  color: #888 !important;
+  border-top: none !important;
+}
+
+.page__footer a {
+  color: #888 !important;
+}
+
+.page__footer-copyright {
+  font-size: 11px !important;
+  font-weight: 300 !important;
+  letter-spacing: 0.04em !important;
+}
+
+/* ── Breadcrumbs ── */
+.breadcrumbs {
+  font-size: 11px !important;
+  color: var(--text-faint) !important;
+  letter-spacing: 0.04em !important;
+  text-transform: uppercase !important;
+}
+
+/* ── Buttons ── */
+.btn {
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+  background: transparent !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--rule-dark) !important;
+  border-radius: 0 !important;
+  padding: 0.5rem 1rem !important;
+  transition: background 0.15s, color 0.15s !important;
+}
+
+.btn:hover {
+  background: var(--rule-dark) !important;
+  color: var(--cream) !important;
+}
+
+/* ── Utility ── */
+hr {
+  border: none !important;
+  border-top: 1px solid var(--rule-light) !important;
+  margin: 2rem 0 !important;
+}
+
+blockquote {
+  border-left: 2px solid var(--lavender-bd) !important;
+  background: var(--lavender-bg) !important;
+  padding: 1rem 1.25rem !important;
+  font-style: italic !important;
+  color: var(--lavender-hd) !important;
+  font-family: 'DM Serif Display', Georgia, serif !important;
+  font-size: 15px !important;
+  margin: 1.5rem 0 !important;
+}
+
+code {
+  background: var(--cream-mid) !important;
+  border: 1px solid var(--rule-light) !important;
+  border-radius: 0 !important;
+  font-size: 12px !important;
+  padding: 1px 5px !important;
+  color: var(--lavender-hd) !important;
+}
+
+/* ── Remove default Academic Pages chrome ── */
+.page__hero,
+.page__hero--overlay {
+  background: var(--cream) !important;
+}
+
+.toc {
+  border: 1px solid var(--rule-light) !important;
+  background: var(--cream) !important;
+  border-radius: 0 !important;
+}
+
+.toc__menu a {
+  font-size: 12px !important;
+  font-weight: 300 !important;
+  color: var(--text-muted) !important;
+}
+
+.toc__menu a:hover {
+  color: var(--lavender-hd) !important;
+}
