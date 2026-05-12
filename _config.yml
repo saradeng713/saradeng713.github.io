@@ -13,6 +13,7 @@ description              : &description "Researcher in Judgment & Decision-Makin
 url                      : https://saradeng713.github.io
 baseurl                  : ""
 repository               : "saradeng713/saradeng713.github.io"
+remote_theme             : academicpages/academicpages.github.io
 
 # Site Author
 author:
@@ -27,16 +28,16 @@ author:
       url: "https://github.com/saradeng713"
     - label: "ORCID"
       icon: "ai ai-orcid"
-      url: "YOUR_ORCID_LINK"
+      url: "https://orcid.org/0009-0001-9275-8008"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "YOUR_LINKEDIN_LINK"
+      url: "https://www.linkedin.com/in/xiaoyu-deng-6106841ab"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "YOUR_INSTAGRAM_LINK"
+      url: "https://instagram.com/sara._.deng"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:YOUR_EMAIL"
+      url: "mailto:sara.dengxiaoyu@gmail.com"
   
 # Publication Categories
 publication_category:
