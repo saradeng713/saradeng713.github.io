@@ -223,6 +223,10 @@ body {
   margin-bottom: 1.5rem;
 }
 
+.author__bio {
+  font-size: 12px;
+}
+
 .sd-sidebar__rule {
   height: 1px;
   background: var(--rule-dark);
