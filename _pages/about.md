@@ -9,7 +9,7 @@ redirect_from:
 
 I am a final-year MSci student in Experimental Psychology at the University of Oxford, and an incoming MA student in the Social Sciences (Psychology concentration) at the University of Chicago, where I will be working with Prof. Boaz Keysar.
 
-My research sits at the intersection of **judgment and decision-making and cross-cultural psychology**. I am fascinated by a deceptively simple question: how does the *way* we present information — its language, design, and context — shape how people perceive and act upon it? The same fact, dressed differently, can lead to strikingly different choices. Understanding when and why this happens, and for whom, feels like one of the most practically consequential questions in the behavioural sciences.
+My research sits at the intersection of **judgment and decision-making** and **cross-cultural psychology**. I am fascinated by a deceptively simple question: how does the *way* we present information — its language, design, and context — shape how people perceive and act upon it? The same fact, dressed differently, can lead to strikingly different choices. Understanding when and why this happens, and for whom, feels like one of the most practically consequential questions in the behavioural sciences.
 
 As a bilingual (English/Mandarin) researcher with experience running studies across China and the UK, I am particularly drawn to the cross-cultural dimension of these effects: how do linguistic and cultural backgrounds modulate the way people respond to framing, risk, and persuasion?
 
