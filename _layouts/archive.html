@@ -4,21 +4,36 @@ layout: default
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
 {% endif %}
 
-{% if page.url != "/" and site.breadcrumbs %}
+{% assign breadcrumbs_enabled = layout.breadcrumbs %}
+{% if page.breadcrumbs != null %}
+  {% assign breadcrumbs_enabled = page.breadcrumbs %}
+{% endif %}
+{% if breadcrumbs_enabled and page.url != "/" %}
   {% unless paginator %}
     {% include breadcrumbs.html %}
   {% endunless %}
 {% endif %}
 
 <div id="main" role="main">
-  {% include sidebar.html %}
+  {% include author-profile.html %}
 
   <div class="archive">
     {% unless page.header.overlay_color or page.header.overlay_image %}
-      <h1 class="page__title">{{ page.title }}</h1>
+      <h1 id="page-title" class="page__title">{{ page.title }}</h1>
     {% endunless %}
-    {{ content }}
+
+    {% assign posts = site[page.collection] %}
+    {% if posts.size > 0 %}
+      {% assign posts_sorted = posts | sort: 'date' | reverse %}
+      {% for post in posts_sorted %}
+        {% include archive-single.html %}
+      {% endfor %}
+    {% else %}
+      {{ content }}
+    {% endif %}
   </div>
 </div>
