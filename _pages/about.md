@@ -11,7 +11,6 @@ redirect_from:
 <div class="sd-about">
 
   <div class="sd-about__top">
-    <p class="sd-eyebrow">About</p>
     <h1 class="sd-about__h1">Hi, I'm Sara — a researcher curious about <em>how we communicate</em> and how it shapes the way people think and act.</h1>
   </div>
 
