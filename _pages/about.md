@@ -42,7 +42,7 @@ redirect_from:
     <span class="sd-tag">Behavioral Methods</span>
   </div>
 
-  <div class="sd-about__body" style="border-top: 1px solid var(--rule-light); padding-top: 2rem; padding-bottom: 5rem;">
+  <div class="sd-about__body" style="border-top: 1px solid var(--rule-light); padding-top: 1rem; padding-bottom: 10rem;">
     <h2 class="sd-about__h2">Beyond Research</h2>
     <p>I co-founded the <a href="https://www.linkedin.com/company/oxbig/posts/?feedView=all" target="_blank">Oxford Behavioural Insights Group (OxBIG)</a>, a student society bridging academic behavioral science and applied practice. I am also a College Scholar at St Catherine's College, Oxford, and have consulted on behavioral design projects with Cowry Consulting.</p>
     <p>Feel free to reach out at <a href="mailto:sara.dengxiaoyu@gmail.com">sara.dengxiaoyu@gmail.com</a> — I am always happy to talk about research, collaborations, or ideas.</p>
