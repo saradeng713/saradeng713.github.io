@@ -16,23 +16,27 @@ repository               : "saradeng713/saradeng713.github.io"
 
 # Site Author
 author:
-  avatar           : "profile.png"
-  name             : "Xiaoyu (Sara) Deng"
-  pronouns         : "she/her"
-  bio              : "Researcher in judgment & decision-making. Interested in how language, design, and context shape human perception and choice — across cultures."
-  location         : "Oxford, UK"
-  employer         : "University of Oxford"
-  uri              :
-  email            : "sara.dengxiaoyu@gmail.com"
-
-  # Academic
-  googlescholar    :
-  orcid            : "https://orcid.org/0009-0001-9275-8008"
-
-  # Social
-  github           : "saradeng713"
-  instagram        : "sara._.deng"
-  linkedin         : "www.linkedin.com/in/xiaoyu-deng-6106841ab"
+  avatar: "profile.png"
+  name: "Xiaoyu (Sara) Deng"
+  pronouns: "she / her"
+  bio: "Researcher"
+  location: "Oxford, UK"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/saradeng713"
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "YOUR_ORCID_LINK"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "YOUR_LINKEDIN_LINK"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "YOUR_INSTAGRAM_LINK"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:YOUR_EMAIL"
   
 # Publication Categories
 publication_category:
