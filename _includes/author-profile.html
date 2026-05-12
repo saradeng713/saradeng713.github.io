@@ -1,51 +1,105 @@
+{% include base_path %}
+{% assign author = site.author %}
+
 <!-- Custom sidebar author profile matching the preview -->
 <div class="sd-sidebar">
 
   {% if author.avatar %}
-  <div class="sd-sidebar__avatar">
-    <img src="{{ author.avatar | prepend: '/images/' | relative_url }}" alt="{{ author.name }}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-    <div class="sd-sidebar__avatar-fallback" style="display:none">SD</div>
-  </div>
+    <div class="sd-sidebar__avatar">
+      <img
+        src="{{ author.avatar | prepend: '/images/' | relative_url }}"
+        alt="{{ author.name | default: 'Xiaoyu (Sara) Deng' }}"
+        onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
+      >
+      <div class="sd-sidebar__avatar-fallback" style="display:none">SD</div>
+    </div>
   {% else %}
-  <div class="sd-sidebar__avatar-fallback">SD</div>
+    <div class="sd-sidebar__avatar-fallback">SD</div>
   {% endif %}
 
-  <p class="sd-sidebar__name">{{ author.name }}</p>
-  {% if author.pronouns %}<p class="sd-sidebar__pronoun">{{ author.pronouns }}</p>{% endif %}
+  <p class="sd-sidebar__name">{{ author.name | default: "Xiaoyu (Sara) Deng" }}</p>
+
+  {% if author.pronouns %}
+    <p class="sd-sidebar__pronoun">{{ author.pronouns }}</p>
+  {% endif %}
+
+  {% if author.bio %}
+    <p class="sd-sidebar__pronoun">{{ author.bio }}</p>
+  {% endif %}
 
   <div class="sd-sidebar__rule"></div>
 
   <p class="sd-sidebar__section-label">Education</p>
+
   <div class="sd-sidebar__item">
     <strong>University of Oxford</strong>
-    MSci Experimental Psychology
+    <span>MSci Experimental Psychology</span>
   </div>
+
   <div class="sd-sidebar__item">
     <strong>University of Chicago</strong>
-    MA Social Sciences — incoming
+    <span>MA Social Sciences — incoming</span>
   </div>
 
   <div class="sd-sidebar__rule-light"></div>
 
   <p class="sd-sidebar__section-label">Location</p>
-  <div class="sd-sidebar__item" style="margin-bottom:1.5rem">{{ author.location }}</div>
+
+  <div class="sd-sidebar__item" style="margin-bottom:1.5rem">
+    {{ author.location | default: "Oxford, UK" }}
+  </div>
 
   <p class="sd-sidebar__section-label">Links</p>
+
   <ul class="sd-sidebar__links">
     {% if author.email %}
-    <li><a href="mailto:{{ author.email }}">Email <span>↗</span></a></li>
+      <li>
+        <a href="mailto:{{ author.email }}">
+          Email <span>↗</span>
+        </a>
+      </li>
     {% endif %}
+
     {% if author.github %}
-    <li><a href="https://github.com/{{ author.github }}" target="_blank">GitHub <span>↗</span></a></li>
+      <li>
+        <a href="https://github.com/{{ author.github }}" target="_blank" rel="noopener noreferrer">
+          GitHub <span>↗</span>
+        </a>
+      </li>
     {% endif %}
+
     {% if author.orcid %}
-    <li><a href="{{ author.orcid }}" target="_blank">ORCID <span>↗</span></a></li>
+      <li>
+        <a href="{{ author.orcid }}" target="_blank" rel="noopener noreferrer">
+          ORCID <span>↗</span>
+        </a>
+      </li>
     {% endif %}
+
     {% if author.linkedin %}
-    <li><a href="https://{{ author.linkedin }}" target="_blank">LinkedIn <span>↗</span></a></li>
+      <li>
+        <a href="{% if author.linkedin contains 'http' %}{{ author.linkedin }}{% else %}https://{{ author.linkedin }}{% endif %}" target="_blank" rel="noopener noreferrer">
+          LinkedIn <span>↗</span>
+        </a>
+      </li>
     {% endif %}
+
     {% if author.instagram %}
-    <li><a href="https://instagram.com/{{ author.instagram }}" target="_blank">Instagram <span>↗</span></a></li>
+      <li>
+        <a href="{% if author.instagram contains 'http' %}{{ author.instagram }}{% else %}https://instagram.com/{{ author.instagram }}{% endif %}" target="_blank" rel="noopener noreferrer">
+          Instagram <span>↗</span>
+        </a>
+      </li>
+    {% endif %}
+
+    {% if author.links %}
+      {% for link in author.links %}
+        <li>
+          <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">
+            {{ link.label }} <span>↗</span>
+          </a>
+        </li>
+      {% endfor %}
     {% endif %}
   </ul>
 
