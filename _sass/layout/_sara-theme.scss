@@ -420,3 +420,28 @@ body:not(.layout--single) .page__content {
     font-size: 2.3rem;
   }
 }
+
+/* Force sidebar to appear correctly on homepage */
+
+@media screen and (min-width: 1024px) {
+  .sidebar {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+
+  .sidebar.sticky {
+    position: sticky !important;
+    top: 86px !important;
+  }
+
+  .author__avatar,
+  .author__content,
+  .author__urls-wrapper {
+    display: block !important;
+  }
+
+  .author__urls {
+    display: block !important;
+  }
+}
