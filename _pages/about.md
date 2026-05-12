@@ -1,8 +1,10 @@
 ---
-permalink: /
-title: ""
 layout: single
+title: ""
+permalink: /
 author_profile: true
+sidebar:
+  nav: false
 redirect_from:
   - /about/
   - /about.html
