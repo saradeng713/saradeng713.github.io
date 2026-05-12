@@ -13,7 +13,7 @@ redirect_from:
     <div class="sara-kicker">About</div>
 
     <h1 class="sara-title">
-      Judgment, decision-making & the <em>framing</em> of information
+      Judgment, decision-making & the <em>presentation</em> of information
     </h1>
   </section>
 
