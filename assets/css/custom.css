@@ -153,8 +153,9 @@ body {
   float: none !important;
   display: grid !important;
   grid-template-columns: 220px 1fr !important;
-  min-height: calc(100vh - 52px) !important;
-  align-items: start !important;
+  align-items: stretch !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
 }
 
 /* ── Hide default sidebar, show ours ── */
@@ -166,10 +167,11 @@ body {
 .sd-sidebar {
   border-right: 1px solid var(--rule-dark);
   padding: 2rem 1.5rem;
-  min-height: calc(100vh - 52px);
+  min-height: 100vh;
   background: var(--cream);
   position: sticky;
   top: 52px;
+  align-self: stretch;
 }
 
 .sd-sidebar__avatar {
