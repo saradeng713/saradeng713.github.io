@@ -1,51 +1,53 @@
 ---
-layout: single
-title: ""
 permalink: /
-author_profile: true
+layout: home
+title: ""
+author_profile: false
 redirect_from:
   - /about/
   - /about.html
 ---
 
-<section class="sara-home">
-  <section class="sara-hero">
-    <div class="sara-kicker">About</div>
+<div class="sd-about">
 
-    <h1 class="sara-title">
-      Judgment, decision-making & the <em>presentation</em> of information
-    </h1>
-  </section>
+  <div class="sd-about__top">
+    <p class="sd-eyebrow">About</p>
+    <h1 class="sd-about__h1">Judgment, decision-making &amp; the <em>framing</em> of information</h1>
+  </div>
 
-  <section class="sara-intro">
-    <p>
-      I am a final-year MSci student in Experimental Psychology at Oxford, and an incoming MA student at the University of Chicago. My research asks how the way <strong>we present information</strong> — its language, design, and context — shapes how people perceive and act upon it.
-    </p>
+  <div class="sd-about__body">
+    <p>I am a final-year MSci student in Experimental Psychology at Oxford, and an incoming MA student at the University of Chicago (working with Prof. Boaz Keysar). My research asks how the <strong>way we present information</strong> — its language, framing, and context — shapes how people perceive and act upon it.</p>
 
-    <p>
-      As a bilingual researcher, I am especially drawn to the <strong>cross-cultural dimension</strong> of these effects: how do language and cultural background modulate responses to information presentation?
-    </p>
-  </section>
+    <p>As a bilingual (English/Mandarin) researcher with experience running studies across China and the UK, I am drawn to the <strong>cross-cultural dimension</strong> of these effects: how do linguistic and cultural backgrounds modulate responses to framing, risk, and persuasion? I gravitate toward behavioural experiments and care deeply about research that translates into real-world social impact.</p>
+  </div>
 
-  <section class="sara-info-grid">
-    <div class="sara-info-card">
-      <div class="sara-label">Current work</div>
-      <strong>MSci Thesis</strong>
-      <span>Neurophysiology of Reward Group, Oxford</span>
+  <div class="sd-about__grid">
+    <div class="sd-about__cell">
+      <p class="sd-cell-label">Current work</p>
+      <p class="sd-cell-value">MSci Dissertation</p>
+      <p class="sd-cell-sub">Neurophysiology of Reward Group, Oxford</p>
     </div>
-
-    <div class="sara-info-card">
-      <div class="sara-label">Next</div>
-      <strong>University of Chicago</strong>
-      <span>MA Social Sciences, 2026–27</span>
+    <div class="sd-about__cell">
+      <p class="sd-cell-label">Next</p>
+      <p class="sd-cell-value">University of Chicago</p>
+      <p class="sd-cell-sub">MA Social Sciences, 2026–27</p>
     </div>
-  </section>
+  </div>
 
-  <section class="sara-tags">
-    <span class="sara-tag">Judgment</span>
-    <span class="sara-tag">Decision-making</span>
-    <span class="sara-tag">Communication</span>
-    <span class="sara-tag">Cross-cultural</span>
-    <span class="sara-tag">Behavioral Research</span>
-  </section>
-</section>
+  <div class="sd-about__tags">
+    <span class="sd-tag">Framing Effects</span>
+    <span class="sd-tag">Cross-cultural</span>
+    <span class="sd-tag">Decision-making</span>
+    <span class="sd-tag">Behavioural Methods</span>
+    <span class="sd-tag sd-tag--plain">R</span>
+    <span class="sd-tag sd-tag--plain">Python</span>
+    <span class="sd-tag sd-tag--plain">MATLAB</span>
+  </div>
+
+  <div class="sd-about__body" style="margin-top:2.5rem; border-top: 1px solid var(--rule-light); padding-top: 2rem;">
+    <h2 class="sd-about__h2">Beyond Research</h2>
+    <p>I co-founded the <a href="https://www.linkedin.com/company/oxbig/posts/?feedView=all" target="_blank">Oxford Behavioural Insights Group (OxBIG)</a>, a student society bridging academic behavioural science and applied practice. I am also a College Scholar at St Catherine's College, Oxford, and have consulted on behavioural design projects with Cowry Consulting.</p>
+    <p>Feel free to reach out at <a href="mailto:sara.dengxiaoyu@gmail.com">sara.dengxiaoyu@gmail.com</a> — I am always happy to talk about research, collaborations, or ideas.</p>
+  </div>
+
+</div>
