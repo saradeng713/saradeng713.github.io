@@ -316,3 +316,107 @@ body:not(.layout--single) .page__content {
     border-bottom: 1px solid var(--sara-line);
   }
 }
+
+/* CV page */
+
+.sara-cv {
+  max-width: 920px;
+  padding: 70px;
+}
+
+.sara-cv-header {
+  padding-bottom: 34px;
+  border-bottom: 1px solid var(--sara-line);
+  margin-bottom: 42px;
+}
+
+.sara-cv-header h1 {
+  margin: 18px 0 14px;
+  font-family: Georgia, serif;
+  font-size: 3rem;
+  line-height: 1.1;
+}
+
+.sara-cv-header p {
+  max-width: 620px;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.sara-cv-section {
+  margin-bottom: 48px;
+  padding-bottom: 36px;
+  border-bottom: 1px solid var(--sara-line);
+}
+
+.sara-cv-section h2 {
+  margin-bottom: 28px;
+  font-family: Georgia, serif;
+  font-size: 1.55rem;
+}
+
+.sara-cv-item {
+  display: grid;
+  grid-template-columns: 140px minmax(0, 1fr);
+  gap: 34px;
+  margin-bottom: 30px;
+}
+
+.sara-cv-date {
+  color: var(--sara-muted);
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+}
+
+.sara-cv-content h3 {
+  margin: 0 0 8px;
+  font-family: Georgia, serif;
+  font-size: 1.15rem;
+}
+
+.sara-cv-content p {
+  margin: 0 0 10px;
+  line-height: 1.65;
+}
+
+.sara-cv-content ul,
+.sara-cv-section ul {
+  margin-top: 10px;
+}
+
+.sara-cv-content li,
+.sara-cv-section li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.sara-cv-skills {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 34px;
+}
+
+.sara-cv-skills h3 {
+  margin-top: 0;
+  font-family: Georgia, serif;
+  font-size: 1.05rem;
+}
+
+@media screen and (max-width: 768px) {
+  .sara-cv {
+    padding: 36px 28px;
+  }
+
+  .sara-cv-item {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .sara-cv-skills {
+    grid-template-columns: 1fr;
+  }
+
+  .sara-cv-header h1 {
+    font-size: 2.3rem;
+  }
+}
