@@ -39,6 +39,37 @@ html, body {
   display: none !important;
 }
 
+/* ── Remove top/bottom white space gaps ── */
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body {
+  padding-top: 0 !important;
+}
+
+.page {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+#page-wrapper,
+.initial-content,
+.layout--single,
+.layout--archive {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Remove gap before footer */
+#main {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
 /* ── Custom masthead ── */
 .sd-masthead {
   display: grid;
