@@ -19,18 +19,18 @@ redirect_from:
 
   <section class="sara-intro">
     <p>
-      I am a final-year MSci student in Experimental Psychology at Oxford, and an incoming MA student at the University of Chicago. My research asks how the way <strong>we present information</strong> — its language, framing, and context — shapes how people perceive and act upon it.
+      I am a final-year MSci student in Experimental Psychology at Oxford, and an incoming MA student at the University of Chicago. My research asks how the way <strong>we present information</strong> — its language, design, and context — shapes how people perceive and act upon it.
     </p>
 
     <p>
-      As a bilingual researcher, I am especially drawn to the <strong>cross-cultural dimension</strong> of these effects: how do language and cultural background modulate responses to framing, risk, and persuasion?
+      As a bilingual researcher, I am especially drawn to the <strong>cross-cultural dimension</strong> of these effects: how do language and cultural background modulate responses to information presentation?
     </p>
   </section>
 
   <section class="sara-info-grid">
     <div class="sara-info-card">
       <div class="sara-label">Current work</div>
-      <strong>MSci Dissertation</strong>
+      <strong>MSci Thesis</strong>
       <span>Neurophysiology of Reward Group, Oxford</span>
     </div>
 
@@ -42,12 +42,10 @@ redirect_from:
   </section>
 
   <section class="sara-tags">
-    <span class="sara-tag">Framing Effects</span>
-    <span class="sara-tag">Cross-cultural</span>
+    <span class="sara-tag">Judgment</span>
     <span class="sara-tag">Decision-making</span>
-    <span class="sara-tag">Behavioural Methods</span>
-    <span class="sara-tag small">R</span>
-    <span class="sara-tag small">Python</span>
-    <span class="sara-tag small">MATLAB</span>
+    <span class="sara-tag">Communication</span>
+    <span class="sara-tag">Cross-cultural</span>
+    <span class="sara-tag">Behavioral Research</span>
   </section>
 </section>
