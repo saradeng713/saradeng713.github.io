@@ -17,12 +17,12 @@ Methodologically, I gravitate toward **behavioural experiments** — both lab-ba
 
 ## Current Work
 
-I am currently completing my MSci dissertation in the [Neurophysiology of Reward Group](https://grabenhorstlab.org/) (PI: Prof. Fabian Grabenhorst), where I designed a naturalistic socioeconomic trading paradigm to study how information transparency shapes group coordination and individual decision-making. I use mixed-effects modelling in R to analyse the resulting behavioural data.
+I am currently completing my MSci dissertation in the [Neurophysiology of Reward Group](https://www.psy.ox.ac.uk/research/neurophysiology-of-reward) (PI: Prof. Fabian Grabenhorst), where I designed a naturalistic socioeconomic trading paradigm to study how information transparency shapes group coordination and individual decision-making. I use mixed-effects modelling in R to analyse the resulting behavioural data.
 
 I am also co-leading a cross-cultural randomised controlled study evaluating the [iAlive](https://www.ialive.info/) digital tool for suicide prevention, with a registered report accepted at *Crisis* journal.
 
 ## Beyond Research
 
-I co-founded the [Oxford Behavioural Insights Group (OxBIG)](https://www.instagram.com/oxbig.ox/), a student society bridging academic behavioral science and applied practice. I am also a College Scholar at St Catherine's College, Oxford, and have consulted on behavioural design projects with Cowry Consulting.
+I co-founded the [Oxford Behavioural Insights Group (OxBIG)](https://www.linkedin.com/company/oxbig/posts/?feedView=all), a student society bridging academic behavioral science and applied practice. I am also a College Scholar at St Catherine's College, Oxford, and have consulted on behavioural design projects with Cowry Consulting.
 
 Feel free to reach out at [sara.dengxiaoyu@gmail.com](mailto:sara.dengxiaoyu@gmail.com) — I am always happy to talk about research, collaborations, or ideas.
