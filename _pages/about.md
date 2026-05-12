@@ -1,28 +1,52 @@
 ---
 permalink: /
-title: "About Me"
+title: ""
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-I am a final-year MSci student in Experimental Psychology at the University of Oxford, and an incoming MA student in the Social Sciences (Psychology concentration) at the University of Chicago, where I will be working with Prof. Boaz Keysar.
+<div class="sd-about">
 
-My research sits at the intersection of **judgment and decision-making** and **cross-cultural psychology**. I am fascinated by a deceptively simple question: how does the *way* we present information — its language, design, and context — shape how people perceive and act upon it? The same fact, dressed differently, can lead to strikingly different choices. Understanding when and why this happens, and for whom, feels like one of the most practically consequential questions in the behavioural sciences.
+  <div class="sd-about__top">
+    <p class="sd-eyebrow">About</p>
+    <h1 class="sd-about__h1">Judgment, decision-making &amp; the <em>framing</em> of information</h1>
+  </div>
 
-As a bilingual (English/Mandarin) researcher with experience running studies across China and the UK, I am particularly drawn to the cross-cultural dimension of these effects: how do linguistic and cultural backgrounds modulate the way people respond to framing, risk, and persuasion?
+  <div class="sd-about__body">
+    <p>I am a final-year MSci student in Experimental Psychology at Oxford, and an incoming MA student at the University of Chicago (working with Prof. Boaz Keysar). My research asks how the <strong>way we present information</strong> — its language, design, and context — shapes how people perceive and act upon it.</p>
 
-Methodologically, I gravitate toward **behavioural experiments** — both lab-based paradigms and large-scale cross-cultural designs — and I care deeply about research that can translate into real-world social impact.
+    <p>As a bilingual (English/Mandarin) researcher with experience running studies across China and the UK, I am drawn to the <strong>cross-cultural dimension</strong> of these effects: how do linguistic and cultural backgrounds modulate responses to framing, risk, and persuasion? I gravitate toward behavioural experiments and care deeply about research that translates into real-world social impact.</p>
+  </div>
 
-## Current Work
+  <div class="sd-about__grid">
+    <div class="sd-about__cell">
+      <p class="sd-cell-label">Current work</p>
+      <p class="sd-cell-value">MSci Dissertation</p>
+      <p class="sd-cell-sub">Neurophysiology of Reward Group, Oxford</p>
+    </div>
+    <div class="sd-about__cell">
+      <p class="sd-cell-label">Next</p>
+      <p class="sd-cell-value">University of Chicago</p>
+      <p class="sd-cell-sub">MA Social Sciences, 2026–27</p>
+    </div>
+  </div>
 
-I am currently completing my MSci dissertation in the [Neurophysiology of Reward Group](https://www.psy.ox.ac.uk/research/neurophysiology-of-reward) (PI: Prof. Fabian Grabenhorst), where I designed a naturalistic socioeconomic trading paradigm to study how information transparency shapes group coordination and individual decision-making. I use mixed-effects modelling in R to analyse the resulting behavioural data.
+  <div class="sd-about__tags">
+    <span class="sd-tag">Framing Effects</span>
+    <span class="sd-tag">Cross-cultural</span>
+    <span class="sd-tag">Decision-making</span>
+    <span class="sd-tag">Behavioural Methods</span>
+    <span class="sd-tag sd-tag--plain">R</span>
+    <span class="sd-tag sd-tag--plain">Python</span>
+    <span class="sd-tag sd-tag--plain">MATLAB</span>
+  </div>
 
-I am also co-leading a cross-cultural randomised controlled study evaluating the [iAlive](https://www.ialive.info/) digital tool for suicide prevention, with a registered report accepted at *Crisis* journal.
+  <div class="sd-about__body" style="margin-top:2.5rem; border-top: 1px solid var(--rule-light); padding-top: 2rem;">
+    <h2 class="sd-about__h2">Beyond Research</h2>
+    <p>I co-founded the <a href="https://www.linkedin.com/company/oxbig/posts/?feedView=all" target="_blank">Oxford Behavioural Insights Group (OxBIG)</a>, a student society bridging academic behavioural science and applied practice. I am also a College Scholar at St Catherine's College, Oxford, and have consulted on behavioural design projects with Cowry Consulting.</p>
+    <p>Feel free to reach out at <a href="mailto:sara.dengxiaoyu@gmail.com">sara.dengxiaoyu@gmail.com</a> — I am always happy to talk about research, collaborations, or ideas.</p>
+  </div>
 
-## Beyond Research
-
-I co-founded the [Oxford Behavioural Insights Group (OxBIG)](https://www.linkedin.com/company/oxbig/posts/?feedView=all), a student society bridging academic behavioral science and applied practice. I am also a College Scholar at St Catherine's College, Oxford, and have consulted on behavioural design projects with Cowry Consulting.
-
-Feel free to reach out at [sara.dengxiaoyu@gmail.com](mailto:sara.dengxiaoyu@gmail.com) — I am always happy to talk about research, collaborations, or ideas.
+</div>
