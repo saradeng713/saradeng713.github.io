@@ -7,18 +7,18 @@ author_profile: true
 
 {% include base_path %}
 
-## Journal Articles & Manuscripts
+<h2 style="font-family: 'DM Serif Display', Georgia, serif; font-weight: 400; font-size: 20px; border-bottom: 1px solid #E8E4DA; padding-bottom: 0.5rem; margin-bottom: 0;">Journal Articles & Manuscripts</h2>
 
 {% assign manuscripts = site.publications | where: "category", "manuscripts" | sort: "date" | reverse %}
 {% for post in manuscripts %}
   {% include archive-single.html %}
 {% endfor %}
 
----
-
-## Conference Presentations & Posters
+<h2 style="font-family: 'DM Serif Display', Georgia, serif; font-weight: 400; font-size: 20px; border-bottom: 1px solid #E8E4DA; padding-bottom: 0.5rem; margin-top: 2rem; margin-bottom: 0;">Conference Presentations & Posters</h2>
 
 {% assign conferences = site.publications | where: "category", "conferences" | sort: "date" | reverse %}
 {% for post in conferences %}
   {% include archive-single.html %}
 {% endfor %}
+
+<div style="padding-bottom: 10rem;"></div>
