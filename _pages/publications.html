@@ -7,7 +7,18 @@ author_profile: true
 
 {% include base_path %}
 
-{% assign publications_sorted = site.publications | sort: 'date' | reverse %}
-{% for post in publications_sorted %}
+## Journal Articles & Manuscripts
+
+{% assign manuscripts = site.publications | where: "category", "manuscripts" | sort: "date" | reverse %}
+{% for post in manuscripts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+---
+
+## Conference Presentations & Posters
+
+{% assign conferences = site.publications | where: "category", "conferences" | sort: "date" | reverse %}
+{% for post in conferences %}
   {% include archive-single.html %}
 {% endfor %}
