@@ -13,5 +13,5 @@ citation: "Pfatrisch, N.*, …, **Deng, X.***, …, & Krohne, N.* (Stage 1 regis
 *Crisis* (Stage 1 Registered Report accepted), 2025
 
 Pfatrisch, N.\*, …, **Deng, X.**\*, …, & Krohne, N.\* (Stage 1 registered report accepted). Evaluating the iAlive tool for suicide prevention: A cross-cultural waitlist randomized controlled study. *Crisis*. [https://doi.org/10.17605/OSF.IO/FUY9P](https://doi.org/10.17605/OSF.IO/FUY9P)
-<br><br> \* denotes equal contribution.
-<br><br> [View on OSF](https://doi.org/10.17605/OSF.IO/FUY9P)
+<br> \* denotes equal contribution.
+<br> [View on OSF](https://doi.org/10.17605/OSF.IO/FUY9P)
