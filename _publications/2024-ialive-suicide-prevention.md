@@ -2,7 +2,7 @@
 title: "Evaluating the iAlive tool for suicide prevention: A cross-cultural waitlist randomized controlled study"
 collection: publications
 category: manuscripts
-permalink: /publication/2024-ialive-suicide-prevention
+permalink: /publication/2025-ialive-suicide-prevention
 excerpt: "A cross-cultural waitlist RCT evaluating the iAlive digital intervention for suicide prevention, with a Stage 1 Registered Report accepted at Crisis."
 date: 2025-07-01
 venue: "Crisis (Stage 1 Registered Report accepted)"
