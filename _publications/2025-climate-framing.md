@@ -13,5 +13,5 @@ citation: "Kovács, L., Ashcroft-Jones, S., Schmidt, J., Geiger, S. J., … **De
 *Nature Communications* (Under Review), 2025
 
 Kovács, L., Ashcroft-Jones, S., Schmidt, J., Geiger, S. J., … **Deng, X.**, … & Kökönyei, G. (Under Review). Loss- and gain-framed messages alter climate emotions, but not behaviour, across 26 countries. *Nature Communications*. [https://doi.org/10.31234/osf.io/4kqam_v1](https://doi.org/10.31234/osf.io/4kqam_v1)
-
+<br>
 [View preprint](https://doi.org/10.31234/osf.io/4kqam_v1)
