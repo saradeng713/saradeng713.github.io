@@ -636,12 +636,12 @@ code { padding: 1px 5px !important; }
 
 .pub-section-title {
   font-family: 'DM Serif Display', Georgia, serif !important;
-  font-size: 18px !important;
+  font-size: 20px !important;
   font-weight: 400 !important;
-  color: var(--text-primary) !important;
+  color: var(--lav-hd) !important;
   border-bottom: 1px solid var(--rule-light) !important;
   padding-top: 2rem !important;
-  padding-bottom: 1rem !important;
+  padding-bottom: 2rem !important;
   margin: 0 !important;
 }
 
@@ -651,7 +651,7 @@ code { padding: 1px 5px !important; }
 }
 
 .pub-venue {
-  font-size: 11px !important;
+  font-size: 12px !important;
   font-weight: 400 !important;
   letter-spacing: 0.06em !important;
   text-transform: uppercase !important;
